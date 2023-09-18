@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <!--CSS-->   
+    <!-- <link rel="stylesheet" href="css/reset.css">  -->
+    <link rel="stylesheet" href="../css/style.css">
+ <!--Fonts-->   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ <!--JS--> 
+    <script src="js/index.js"></script>
+    
+    <title class="text-serif feature-title">Il Matterello/Contact</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <a href="../index.html"><img src="../assets/logo_text.png" alt="logo of Il Matterello">
+                </a>
+            </div>
+
+            <div class="actions">
+                <img src="../assets/icons/menu.svg" alt="button of menu">
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <img class="left-floating" src="../assets/hero_left.png" alt="image del tomate">
+            <img class="right-floating" src="../assets/hero_right.png" alt="image de ingredientes">
+
+            <div class="plate-wrapper"> <!--container of plate-->
+                <img class="logo-bar" src="../assets/bar_logo.png" alt="logo bar">
+                <img class="plate" src="../assets/plate.png" alt="image of plate">
+
+                <div class="plate-circle"></div>
+            
+            </div>
+
+            <div class="hero-content">
+                <h2 class="hero-title text-serif">Contacto</h2>
+                
+
+            </div>
+        </section>
+
+        <section class="hero">
+            <form class="hero-content" action="/my-handling-form-page" method="post">
+                <ul >
+                    <li class="form-label">
+                      <input class= 'form-input' type="text" id="name" name="user_name" placeholder="Nombre" />
+                    </li>
+                    <li class="form-label">
+                      <input class= 'form-input' type="email" id="mail" name="user_mail" placeholder="correo@email.com" />
+                    </li>
+                    <li class="form-label">
+                      <textarea class= 'form-input' id="msg" name="user_message" placeholder="Opiná!!"></textarea>
+                    </li>
+                    <li  class="hero-content">
+                        <button class="hero-button">Enviar</button>
+                    </li>
+                  </ul>
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+
+        <img src="../assets/cheese_footer.png" class="footer-floating" alt="tomates pequeños">
+        <div class="footer-circle"></div>
+        <div class="logo-footer">
+            <img src="../assets/logo_footer.png" alt="logo footer">
+
+        </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="../page/menu.html" target="_self">Carta</a></li>
+                <li><a href="../page/contact.html" target="_self">Contacto</a></li>
+                <li><a href="../page/direction.html" target="_self">Direccion</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p class="brand-copy">©copyright 2023 - Il Matterello</p>
+            <p>Developed by Christian Uchuya</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+dudas:
+1. crear las paginas menu.
+2. crear el menu nav 
+3. menu responsive con js,  como hacer el efecto del menu despegable y normal
+4. resolver dudas de la prop position
+4.1 resolver dudas con el modelo de caja (centrar el boton de page contact)
+5. montar formulario  con formspark
+6. crear imagen para icon
+
+
+concretadas:
+1. colocar las imagenes con grados y en los border
+2. modular las secciones
+3. page contact
+

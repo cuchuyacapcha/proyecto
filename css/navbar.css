@@ -1,0 +1,7 @@
+.navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;  /*texto base es 16px, con 1rem, estaria usando 16px, y seria mas responsivo*/
+
+}
